@@ -1,0 +1,49 @@
+package enums;
+
+/**
+ * Represents a View identifier for ViewFactory.
+ */
+public enum ViewEnum {
+    // Start
+    START,
+    LOGIN,
+    REGISTRATION,
+    ORGANIZER,
+    SPEAKER,
+    VIP_ATTENDEE,
+    ATTENDEE,
+
+    // Account
+    EXIT,
+    ADD_CONTACT,
+    REMOVE_CONTACT,
+    VIEW_CONTACTS,
+    MESSAGE,
+    VIEW_CONVERSATION,
+    VIEW_EVENT_SCHEDULE,
+    DOWNLOAD_SCHEDULE,
+    VOID,
+
+    // Organizer
+    CREATE_ACCOUNT,
+    MESSAGE_ALL_SPEAKERS,
+    MESSAGE_ALL_ATTENDEES,
+    VIEW_LOCATIONS,
+    ADD_LOCATION,
+    CREATE_EVENT,
+    CANCEL_EVENT,
+    RESCHEDULE_EVENT,
+    VIEW_UNRESOLVED_REQUEST,
+    VIEW_RESOLVED_REQUEST,
+    RESOLVE_REQUEST,
+
+    // Speaker
+    MESSAGE_TALK_ATTENDEES,
+    VIEW_SPEAKER_SCHEDULE,
+
+    // Attendee,
+    VIEW_SIGNUP_SCHEDULE,
+    SIGNUP_EVENT,
+    LEAVE_EVENT,
+    SEND_REQUEST
+}
